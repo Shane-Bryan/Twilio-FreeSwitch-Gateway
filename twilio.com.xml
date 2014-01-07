@@ -1,0 +1,18 @@
+<include>
+	<gateway name="twilio.com">
+	
+		<!-- Your username/password from the Twilio Credential List assigned to your SIP Domain (Required) -->
+
+		<param name="username" value="{username}"/>
+		<param name="password" value="{password}"/>
+	
+		<!-- Your SIP Domain from Twilio (Required) -->
+	
+		<param name="realm" value="{SIP Domain}.sip.twilio.com"/>
+	
+		<!-- Without the following setting FreeSWITCH is unable to connect to Twilio (Required) -->
+	
+		<param name="reqister" value="false"/>
+	
+	</gateway>
+</include>
