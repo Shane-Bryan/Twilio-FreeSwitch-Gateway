@@ -12,7 +12,7 @@
 	
 		<!-- Without the following setting FreeSWITCH is unable to connect to Twilio (Required) -->
 	
-		<param name="reqister" value="false"/>
+		<param name="register" value="false"/>
 	
 	</gateway>
 </include>
